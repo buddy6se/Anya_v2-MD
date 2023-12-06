@@ -17,12 +17,12 @@ global.prefa = process.env.Prefix || ['-']
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
 global.ownername = process.env.Owner_Name || "Themiya" 
 global.ownernumber = process.env.Owner_Number || "94713144828" 
-global.adress = process.env.Continent || "Asia, Sri lanka, south" 
-global.timezone = process.env.TimeZone || "Asia/Galle" 
+global.adress = process.env.Continent || "Asia, Sri lanka, Galle" 
+global.timezone = process.env.TimeZone || "Asia/Colombo" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || "␈␀␒�␁␊c␅␋␖��s��␃␇���|��h/���m␞͇␘"��IU␅��␛&␘�<�%��Z␁�;␛�n␂��S���-�쪊�T␅��⇥ﭏT/a"(��h,v�␏-�␏#��K�kei��5␒␈94144828␚␓215225374666862@lid␚A␊!␅␃␖;␟m␖�Q����3�(����*�␖T�V␑␀ֿ␆�␏␒␈94331487␚␒53240783736981@lid"; 
 
 global.warns = process.env.Warns_Limits || 3; 
 
@@ -110,12 +110,12 @@ module.exports = {
   themeemoji: process.env.ThemeEmoji || "🎐",
   ownername: process.env.Owner_Name || "Themiya",
   ownernumber: process.env.Owner_Number || "94713144828",
-  adress: process.env.Continent || "Asia, Sri lanka, south",
-  timezone: process.env.TimeZone || "Asia/Galle", 
+  adress: process.env.Continent || "Asia, Sri lanka, Galle",
+  timezone: process.env.TimeZone || "Asia/Colombo", 
   instagramId: process.env.Insta || "8.08_only_mine",
   email: process.env.Email_Id || "example@example.com",
   warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "Enter",
+  mongoUrl: process.env.MongoDB || "␈␀␒�␁␊c␅␋␖��s��␃␇���|��h/���m␞͇␘"��IU␅��␛&␘�<�%��Z␁�;␛�n␂��S���-�쪊�T␅��⇥ﭏT/a"(��h,v�␏-�␏#��K�kei��5␒␈94144828␚␓215225374666862@lid␚A␊!␅␃␖;␟m␖�Q����3�(����*�␖T�V␑␀ֿ␆�␏␒␈94331487␚␒53240783736981@lid",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
